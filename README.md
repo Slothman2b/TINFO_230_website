@@ -13,6 +13,7 @@ current contributors:
 notable features:
 
 Current Files:
-index.html (main html file)
-style.css (style template for the website)
-README.md (description of website)
+- index.html (main html file)
+- style.css (style template for the website)
+- README.md (description of website)
+- main.js (functional code for websiteS) 
