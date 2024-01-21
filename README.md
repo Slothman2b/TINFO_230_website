@@ -8,7 +8,7 @@ current client:
 
 current contributors:
 - Kyle Johnson
-- 
+- Muhsin Salat
 -
 notable features:
 
