@@ -13,8 +13,16 @@ current contributors:
   
 notable features:
 
-Current Files:
+Current Primary Files:
 - index.html (main html file)
+- blogs.html (where blogs will be shown)
+- patients.html ()
+- practice.html
+- team.html
 - README.md (description of website)
 - style.css (style template for the website)
-- main.js (functional code for websiteS) 
+- main.js (functional code for websiteS)  
+
+Directories:
+- blogs
+    (this is where new blogs are made)

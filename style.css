@@ -1,0 +1,89 @@
+body {
+    background-color: lightgray;
+    margin: 0%;
+}
+
+.header {
+
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    background-color: #cacaca;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+  }
+
+.header-button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 17px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    float: right;
+
+  }
+
+.header-button:hover {
+    background-color: #357357; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    float: right;
+  }
+
+.patient-portal{
+    background-color: #c5cf3a; /* Green */
+    border: none;
+    color: white;
+    padding: 17px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    float: right;
+    margin-right: 2%;
+}
+
+.patient-portal:hover{
+    background-color: #373a09; /* Green */
+    border: none;
+    color: white;
+    padding: 15x 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    float: right;
+    margin-right: 2%;
+
+}
+
+.footer{
+    height: auto;
+    width: auto;
+    padding: 20px;
+    background-color: #284644;
+    z-index: 99;
+    position: static;
+    bottom: 0;
+}
+
+u {
+  font-weight: bold;
+}
+
+.main-body{
+  
+}
