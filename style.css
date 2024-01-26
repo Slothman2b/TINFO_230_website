@@ -18,10 +18,10 @@ body {
     background-color: #04AA6D; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 17px 20px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     font-size: 16px;
     transition-duration: 0.4s;
     float: right;
@@ -32,10 +32,10 @@ body {
     background-color: #357357; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 20px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     font-size: 16px;
     transition-duration: 0.4s;
     float: right;
@@ -45,34 +45,45 @@ body {
     background-color: #c5cf3a; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 17px 20px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     font-size: 16px;
     transition-duration: 0.4s;
     float: right;
+    margin-right: 2%;
 }
 
 .patient-portal:hover{
     background-color: #373a09; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15x 20px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     font-size: 16px;
     transition-duration: 0.4s;
     float: right;
+    margin-right: 2%;
+
 }
 
-footer{
+.footer{
     height: auto;
-    width: 100%;
+    width: auto;
     padding: 20px;
-    background-color: #1b7e03;
+    background-color: #284644;
     z-index: 99;
     position: static;
-    top: 0;
+    bottom: 0;
+}
+
+u {
+  font-weight: bold;
+}
+
+.main-body{
+  
 }
