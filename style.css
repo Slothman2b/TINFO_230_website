@@ -1,6 +1,7 @@
 body {
     background-color: lightgray;
     margin: 0%;
+    min-width: 1000px;
 }
 
 .header {
@@ -52,7 +53,7 @@ body {
     font-size: 16px;
     transition-duration: 0.4s;
     float: right;
-    margin-right: 2%;
+    margin-right: 3%;
 }
 
 .patient-portal:hover{
@@ -66,7 +67,7 @@ body {
     font-size: 16px;
     transition-duration: 0.4s;
     float: right;
-    margin-right: 2%;
+    margin-right: 3%;
 
 }
 
@@ -78,12 +79,156 @@ body {
     z-index: 99;
     position: static;
     bottom: 0;
+    padding-bottom: 5%;
+
+    color: #cacaca;
 }
+
 
 u {
   font-weight: bold;
 }
 
-.main-body{
+dialog::backdrop {
+  background-image: linear-gradient(
+    45deg,
+    magenta,
+    rebeccapurple,
+    dodgerblue,
+    green
+  );
+  opacity: 0.75;
+}
+
+video{
+  display: inline-block;
+    width: 400px;
+    margin: 4px;
+    text-align: center;
+    border: 1px solid #cccccc;
+}
+
+.container{
+
+  margin: 5px;
+  font-size: 13px;
+}
+
+.item1 { grid-area: video; }
+.item2 { grid-area: description; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'video description'
+  ;
+  margin-right: 3%;
+  margin-left: 3%;
+  width: auto;
+}
+.grid-item {
+  padding: 20px;
+  background-color: #04AA6D; /* Green */
+  color: white;
+  font-size: 16px;
+}
+
+
+/* mobile menu */
+.topnav a.icon {
+  background: #888888;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
   
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #888888;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: #162ba1;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+
+  background-color: #888888;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: right;
+  margin-right: 20px;
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  transition-duration: 0.1s;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* mobile menu end */
+
+
+.menu-button{
+  background-color: #888888;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: none;
+  font-size: 40px;
+  float: right;
+  margin-right: 5%;
+  
+}
+
+.link-video{
+  width: 100%;
+}
+
+.video-description{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-size: 1.7vw;
+}
+
+@media only screen and (max-width:1100px) {
+  /* For mobile phones: */
+  .header-button, .patient-portal, .header-button:hover, .patient-portal:hover {
+    background-color: aqua;
+    display: none;
+  }
+
+  .grid-container{
+    grid-template-areas:
+  'video'
+  'description'
+  
+  }
+  
+  .menu-button{
+    display: block;
+  }
+
+
+  .column {
+    width: 100%;
+  }
+
 }
