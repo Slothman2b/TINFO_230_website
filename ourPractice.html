@@ -15,22 +15,37 @@
     </head>
 
     <div class="header">
-        <img src="assets/logo-link-community-clinic-and-primary-care-tacoma-566x165-1.png" alt="Link Community Clinic Logo" height="75px">
+        <a href="./index.html"><img src="assets/logo-link-community-clinic-and-primary-care-tacoma-566x165-1.png" alt="Link Community Clinic Logo" height="75px"></a>
 
         <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
         <button class="icon menu-button" onclick="openMenu()">☰</button>
         
         <a href="https://25795.portal.athenahealth.com/"><button class="patient-portal">Patient Portal</button></a>
-        
-        <a href="./forPatients.html"><button class="header-button">For Patients</button></a>
+
+        <div class="dropdown">
+            <a href="./forPatients.html"><button class="dropbtn">For Patients</button></a>
+            <div class="dropdown-content">
+            <a href="./FP_Insurance.html">Insurance</a>
+            <a href="./FP_PatientForms.html">Patient Forms</a>
+            <a href="./FP_Location.html">Location</a>
+            </div>
+          </div>
+
         
         <a href="./blogs.html"><button class="header-button">Link Clinic Blogs</button></a>
 
         <a href="./ourTeam.html"><button class="header-button">Our Team</button></a>
 
-        <a href="./ourPractice.html"><button class="header-button"><u>Our Practice</u></button></a>
+        <div class="dropdown">
+            <a href="./ourPractice.html"><button class="dropbtn"><u>Our Practice</u></button></a>
+            <div class="dropdown-content">
+            <a href="./OP_OurServices.html">Our Services</a>
+            <a href="./OP_ConditionsWeTreat.html">Conditions We Treat</a>
+            <a href="./OP_AboutNaturopathicCare.html">About Naturopathic Primary Care</a>
+            </div>
+          </div>
 
-        <a href="./index.html"><button class="header-button"> Home </button></a>
+        <a href="./index.html"><button class="header-button">Home</button></a>
 
         <div class="topnav">
             <!-- Navigation links (hidden by default) -->
