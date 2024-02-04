@@ -1,0 +1,53 @@
+.text {
+  font-family: 'questrial', Helvetica, Arial, sans-serif;
+  font-size:large;
+  justify-content: space-between;
+  line-height: 175%;
+}
+
+
+a {
+  color: #32CD32;
+  text-decoration: none;
+}
+
+em{
+  text-decoration: none;
+  font-weight: bold;
+  color:#175E17;
+}
+
+.Three-Fourths{
+
+  width: 60%;
+  padding-left: 35%;
+  position:static;
+  top: 20%;
+  
+}
+
+.One-Fourths{
+  width: 25%;
+  padding-left: 3%;
+  position: absolute;
+  top: 20%;
+  overflow-wrap: break-word;
+}
+
+.Table{
+  
+  position: absolute;
+  right: 3%;
+  top:3%;
+  text-align:right;
+  a {
+      color:#808080;
+      font-weight: bold;
+      
+      
+      
+      
+      
+  }
+}
+
