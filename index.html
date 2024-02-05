@@ -8,7 +8,9 @@
     <meta name="author" content="Andreas Austin">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"type="text/css" href="style.css">
+    <link rel="stylesheet"type="text/css" href="slideshow.css">
     <script src="main.js"></script>
+    <script src="slideshow.js"></script>
         <!--TODO: add favicon-->
         <!--TODO: RENAME TITLE TO OFFICIAL TITLES-->
     <title>Link Community Clinic</title>
@@ -75,6 +77,7 @@
 
 
 <div class="container">
+    
     <body>
        <!--most code goes here-->
        
@@ -104,7 +107,7 @@
                 <p class="video-description">
                 Here at Link Community Clinic, we optimize primary care by combining conventional and natural medicine to maximize benefit while reducing harm. Our practice is guided by scientific evidence and by personal connection. We take joy in caring for patients of all body sizes, abilities, ages, races, and genders.
                 
-                We strongly believe everyone should have access to this type of care, which is why we are the only primary care naturopathic doctors in Pierce County to accept Medicaid. 
+                We strongly believe everyone should have access to this type of care, which is why we are the only <a href="./OP_AboutNaturopathicCare.html"> primary care naturopathic doctors</a> <a href="https://www.piercecountywa.gov/">in Pierce County</a> to accept <a href="https://www.dshs.wa.gov/altsa/home-and-community-services/medicaid">Medicaid.</a> 
                 </p>
             </div>
 
@@ -135,36 +138,77 @@
     </div>
 
 
+       <br>
+         <!-- Slideshow container -->
+<div class="slideshow-container">
 
-       <p>this is a test. </p>
-       <p>this is a test. </p>
-       <p>this is a test. </p>
-       <p>this is a test. </p>
-       <p>this is a test. </p>
-       <p>this is a test. </p>
-       <p>this is a test. </p>
-       <p>this is a test. </p>
-       <p>this is a test. </p>
-       <p>this is a test. </p>
-       <p>this is a test. </p>
-       <p>this is a test. </p>
-       <p>this is a test. </p>
-       <p>this is a test. </p>
-       <p>this is a test. </p>
-       <p>this is a test. </p>
-       <p>this is a test. </p>
-       <p>this is a test. </p>
-       <p>this is a test. </p>
-       <p>this is a test. </p>
-       <p>this is a test. </p>
-       <p>this is a test. </p>
-       <p>this is a test. </p>
-       <p>this is a test. </p>
-       <p>this is a test. </p>
-       <p>this is a test. </p>
-       <p>this is a test. </p>
-       <p>this is a test. </p>
-       <p>this is a test. </p>
+    <!-- Full-width slides/quotes -->
+    <div class="mySlides fade">
+      <q>I have a medically complex child with multiple disabilities who sees a large number of specialists. I was looking for someone who could tie all this information together and treat my family holistically. We found Dr. Garofalo to be an excellent fit! I always feel like I have been deeply listened to, that he takes enough time to work collaboratively with me and makes complex medical issues easily accessible. We’ve had nothing but a wonderful experience at Link. HIGHLY recommended!</q>
+      <h2 class="author">- Kate</h2>
+    </div>
+  
+    <div class="mySlides fade">
+      <q>Non-transactional and it felt that I was truly being heard. Link really does a deep dive to figure out what you need.</q>
+      <h2 class="author">- Kelvin</h2>
+    </div>
+  
+    <div class="mySlides fade">
+      <q>Cannot thank Spaceworks enough for featuring this new Tacoma clinic and its medical team in a recent e-newsletter. From phone call scheduling, online account setup, and seeing Noryang L. Yeshi, ND the process was warm, inviting, and a breeze. I felt very listened to, not judged, and cared for by her and the staff! I immediately was able to get medical referrals I’ve been needing and putting off (especially because of the hassle of finding compassion providers with my insurance). I look forward to returning!</q>
+      <h2 class="author">- Ashley</h2>
+    </div>
+
+    <div class="mySlides fade">
+        <q>Dr. G is the best.</q>
+        <h2 class="author">- Emoja</h2>
+      </div>
+    
+      <div class="mySlides fade">
+        <q>Really great clinic! Dr. Poling actually listens and takes her time understanding your health history and concerns. I have a very complex chronic health issue and she has made appropriate referrals and coordinates with my other doctors. I have been very pleased with communication within the client portal as well. Highly recommend!</q>
+        <h2 class="author">- Gaby</h2>
+      </div>
+    
+      <div class="mySlides fade">
+        <q>Dr. Brignal is amazing! He is caring, knowledgeable, and patient. Very respectful. The entire staff has been wonderful. Thank you!!</q>
+        <h2 class="author">- D Jenkins</h2>
+      </div>
+
+      <div class="mySlides fade">
+        <q>I am tempted to gate keep Dr. Poling but honestly I am so happy with my experience thus far I want to scream it from the mountain tops… Dr. Poling, and I cannot stress this enough, LISTENS! In two appointments with her I have more answers about my health than I got in 3 years with my last doctor.</q>
+        <h2 class="author">- Kelsey</h2>
+      </div>
+    
+      <div class="mySlides fade">
+        <q>Doctor Yeshi is my primary and I absolutely love her. She is down to earth and always willing to discuss things with me thoroughly, covering all the bases and making sure that I feel comfortable and well cared for. She definitely feels like a friend and I highly recommend her and her clinic!</q>
+        <h2 class="author">- Skye</h2>
+      </div>
+    
+      <div class="mySlides fade">
+        <q>Dr. Yeshi is amazing! I’m so grateful for her help. Highly recommend this clinic!</q>
+        <h2 class="author">- Meadow</h2>
+      </div>
+  
+    <!-- Next/prev buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  
+
+  
+  <!-- Dots/bullets/indicators -->
+  <div class="dot-container">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+    <span class="dot" onclick="currentSlide(8)"></span>
+    <span class="dot" onclick="currentSlide(9)"></span>
+  </div> 
+    `  <br>
+
        
         <h3 class="land-Acknowledgment">Land Acknowledgment</h3>
         <p class="land-Acknowledgment">ʔuk’ʷədiid čəł ʔuhigʷəd txʷəl tiiɫ ʔa čəɫ ʔal tə swatxʷixʷtxʷəd ʔə tiiɫ puyaləpabš. ʔa ti dxʷʔa ti swatxʷixʷtxʷəd ʔə tiiɫ puyaləpabš ʔəsɫaɫaɫlil tul’al tudiʔ tuhaʔkʷ. didiʔɫ ʔa həlgʷəʔ ʔal ti sləx̌il. dxʷəsɫaɫlils həlgʷəʔ gʷəl ƛ’uyayus həlgʷəʔ gʷəl ƛ’uƛ’ax̌ʷad həlgʷəʔ tiiɫ bədədəʔs gʷəl tix̌dxʷ həlgʷəʔ tiił ʔiišəds həlgʷəʔ gʷəl ƛ’uʔalalus həlgʷəʔ gʷəl ƛ’utxʷəlšucidəb. x̌ʷəla···b ʔə tiiɫ tuyəl’yəlabs.</p>
@@ -175,6 +219,7 @@
             Learn more at https://native-land.ca/ and http://puyallup-tribe.com/</p>
 
     </body>
+    <script src="slideshow.js"></script>
 </div>
 
 
