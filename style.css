@@ -6,6 +6,11 @@ body {
     overflow-x: hidden;
 }
 
+a {
+  color: #32CD32;
+  text-decoration: none;
+}
+
 .header {
 
     height: auto;
@@ -130,7 +135,7 @@ video{
 }
 .grid-item {
   padding: 20px;
-  background-color: #04AA6D; /* Green */
+  background-color: #888888; /* Green */
   color: white;
   font-size: 16px;
 }
@@ -266,21 +271,23 @@ video{
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 30px;
   transition-duration: 0.4s;
-  padding: 1vw;
+  padding: 2vw;
   margin: 6vw;
+  border-radius: 25px;
 }
 
 .home-button:hover{
   background-color: #284644;
-  border: none;
+  border: 1px solid white;
   color: white;
-  padding: 17px 20px;
+  padding: 2vw;
+  margin: 6vw;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 30px;
   transition-duration: 0.4s;
 }
 
@@ -295,13 +302,13 @@ video{
   ;
   margin-right: 3%;
   margin-left: 3%;
-  width: auto;
+  width: 90vw;
   justify-content: center;
 }
 .home-grid-item {
   padding: 20px;
   color: white;
-  font-size: 16px;
+  font-size:large;
 }
 
 .land-Acknowledgment{
@@ -352,5 +359,9 @@ video{
     'Our-Doctors Our-Service'
     'Patient-Forms Location'
     ;
+  }
+
+  .home-grid-item{
+    font-size: 100px;
   }
 }
