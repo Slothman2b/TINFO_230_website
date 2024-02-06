@@ -132,10 +132,12 @@ video{
   margin-right: 3%;
   margin-left: 3%;
   width: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .grid-item {
   padding: 20px;
-  background-color: #888888; /* Green */
+  background-color: #888888;
   color: white;
   font-size: 16px;
 }
@@ -311,8 +313,22 @@ video{
   font-size:large;
 }
 
+
+
 .land-Acknowledgment{
   text-align: center;
+  width: 87vw;
+  padding: 5%;
+}
+
+.doctor-description{
+  font-size: 22px;
+}
+
+.doctor-name{
+  font-size: 22px;
+  font-weight: bold;
+  color: #5fc798;
 }
 
 @media only screen and (max-width:1100px) {
