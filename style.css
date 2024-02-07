@@ -246,6 +246,7 @@ video{
 .team-profession{
   padding-left: 10%;
   font-size: 30px;
+  text-align: left;
 }
 
 .video-description{
@@ -362,10 +363,14 @@ video{
   font-size: 22px;
 }
 
+.doctor-photo{
+  width:auto;
+}
+
 .doctor-name{
   font-size: 22px;
   font-weight: bold;
-  color: #5fc798;
+  color: #36a875;
 }
 
 .our-service-layout{
@@ -390,7 +395,19 @@ video{
   width: 85vw;
 
   }
+
+  .grid-item{
+    width: 75vw;
+  }
   
+  .centered-grid-item{
+    width: 75vw;
+  }
+
+  .land-Acknowledgment{
+    width: 80vw;
+  }
+
   .menu-button{
     display: block;
   }
@@ -432,5 +449,18 @@ video{
   .our-service-layout{
     padding-left: 10px;
 
+  }
+
+  .doctor-photo{
+    width: 70vw;
+  }
+
+  .team-profession{
+    text-align: center;
+    width: 50vw;
+  }
+
+  .doctor-description{
+    font-size: 4vw;
   }
 }
