@@ -6,6 +6,10 @@ body {
     overflow-x: hidden;
 }
 
+.subsection{
+  font-size: 1px;
+}
+
 .page-title{
   text-align: center;
   font-weight: bold;
@@ -194,15 +198,16 @@ video{
   color: #162ba1;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 25px;
   display: block;
 
   background-color: #888888;
   border: none;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 15px 32px;
-  text-align: right;
+  text-align: left;
   margin-right: 20px;
+  transition-duration: 0.4s;
 
 }
 
@@ -422,5 +427,10 @@ video{
 
   .practice-image{
     width: 100%;
+  }
+
+  .our-service-layout{
+    padding-left: 10px;
+
   }
 }
