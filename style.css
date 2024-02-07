@@ -6,11 +6,26 @@ body {
     overflow-x: hidden;
 }
 
+.page-title{
+  text-align: center;
+  font-weight: bold;
+  width: 100vw;
+  font-size: 45px;
+}
+
 a {
-  color: #32CD32;
+  color: #2aad2a;
   text-decoration: none;
 }
 
+.link{
+  color: #2aad2a;
+  transition-duration: 0.4s;
+}
+
+.link:hover{
+  color: #86ce86;
+}
 .header {
 
     height: auto;
@@ -107,6 +122,10 @@ dialog::backdrop {
   opacity: 0.75;
 }
 
+.practice-image{
+  width: 40vw;
+}
+
 video{
   display: inline-block;
     width: 400px;
@@ -137,9 +156,17 @@ video{
 }
 .grid-item {
   padding: 20px;
-  background-color: #888888;
-  color: white;
-  font-size: 16px;
+  border-top: 5px solid #3e8e41;
+  border-bottom: 5px solid #3e8e41;
+  font-size: 20px;
+}
+
+.centered-grid-item {
+  padding: 20px;
+  border-top: 5px solid #3e8e41;
+  border-bottom: 5px solid #3e8e41;
+  font-size: 20px;
+  text-align: center;
 }
 
 
@@ -209,6 +236,11 @@ video{
 
 .link-video{
   width: 100%;
+}
+
+.team-profession{
+  padding-left: 10%;
+  font-size: 30px;
 }
 
 .video-description{
@@ -331,6 +363,13 @@ video{
   color: #5fc798;
 }
 
+.our-service-layout{
+  padding-left: 15%;
+  padding-right: 15%;
+  width: 70vw;
+  font-size: 25px;
+}
+
 @media only screen and (max-width:1100px) {
   /* For mobile phones: */
   .header-button, .patient-portal, .header-button:hover, .patient-portal:hover {
@@ -379,5 +418,9 @@ video{
 
   .home-grid-item{
     font-size: 100px;
+  }
+
+  .practice-image{
+    width: 100%;
   }
 }
