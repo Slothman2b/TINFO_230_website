@@ -1,4 +1,9 @@
-html, body {
+html {
+  overflow-x: hidden;
+
+}
+
+body {
     background-color: lightgray;
     margin: 0%;
     min-width: 1000px;
