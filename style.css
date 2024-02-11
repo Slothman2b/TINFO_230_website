@@ -110,6 +110,31 @@ a {
     color: #cacaca;
 }
 
+.read-more-button{
+  background-color: #0b3f2c; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  float: left;
+}
+
+.read-more-button:hover{
+  background-color: #042217; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  float: left;
+}
 
 u {
   font-weight: bold;
@@ -380,6 +405,10 @@ video{
   font-size: 25px;
 }
 
+.google-map{
+  width: 600px;
+}
+
 @media only screen and (max-width:1100px) {
   /* For mobile phones: */
   .header-button, .patient-portal, .header-button:hover, .patient-portal:hover {
@@ -462,5 +491,9 @@ video{
 
   .doctor-description{
     font-size: 4vw;
+  }
+
+  .google-map{
+    width:80vw;
   }
 }
