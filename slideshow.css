@@ -46,7 +46,7 @@
   text-align: center;
   padding: 20px;
   background: #ddd;
-  width: 90vw;
+  width: 100%;
 }
 
 /* The dots/bullets/indicators */
@@ -80,4 +80,11 @@ q {font-style: italic;}
 @keyframes fade {
   from {opacity: .1}
   to {opacity: 1}
+}
+
+@media only screen and (max-width:1100px) {
+.dot-container{
+  width: 90vw;
+}
+
 }
