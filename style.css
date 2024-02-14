@@ -1,7 +1,4 @@
-.wrapper{
-  overflow-x: hidden;
-position: relative;
-}
+
 
 html {
   overflow-x: hidden;
@@ -51,7 +48,7 @@ a {
     width: 100%;
     padding: 20px;
     background-color: #cacaca;
-    z-index: 99;
+    z-index: 100;
     position: fixed;
     top: 0;
   }
@@ -64,9 +61,11 @@ a {
     text-align: center;
     text-decoration: none;
     display: block;
-    font-size: 16px;
+    font-size: 30px;
     transition-duration: 0.4s;
     float: right;
+    border-radius: 20px;
+    margin: 5px;
 
   }
 
@@ -74,27 +73,31 @@ a {
     background-color: #357357; /* Green */
     border: none;
     color: white;
-    padding: 15px 20px;
+    padding: 17px 20px;
     text-align: center;
     text-decoration: none;
     display: block;
-    font-size: 16px;
+    font-size: 30px;
     transition-duration: 0.4s;
     float: right;
   }
 
 .patient-portal{
-    background-color: #c5cf3a; /* Green */
+    background-color: #a4ac35; /* Green */
     border: none;
     color: white;
     padding: 17px 20px;
     text-align: center;
     text-decoration: none;
     display: block;
-    font-size: 16px;
+    font-size: 30px;
     transition-duration: 0.4s;
     float: right;
+    margin: 5px;
+
     margin-right: 3%;
+    border-radius: 20px;
+
 }
 
 .patient-portal:hover{
@@ -105,9 +108,11 @@ a {
     text-align: center;
     text-decoration: none;
     display: block;
-    font-size: 16px;
+    font-size: 30px;
     transition-duration: 0.4s;
     float: right;
+    margin: 5px;
+
     margin-right: 3%;
 
 }
@@ -300,9 +305,12 @@ video{
   background-color: #04AA6D;
   color: white;
   padding: 17px;
-  font-size: 16px;
+  font-size: 30px;
   border: none;
   cursor: pointer;
+  border-radius: 20px;
+  margin: 5px;
+
 }
 
 .dropdown {
@@ -318,12 +326,13 @@ video{
 
 .dropdown-content {
   display: none;
-  position: absolute;
+  position: fixed;
   text-align: left;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  border-radius: 20px;
 }
 
 .dropdown-content a {
