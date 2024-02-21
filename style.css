@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-color: lightgray;
+    background-color: rgb(240, 240, 240);
     margin: 0%;
     min-width: 1000px;
     max-width: 100%;
@@ -47,13 +47,13 @@ a {
     height: auto;
     width: 100%;
     padding: 20px;
-    background-color: #cacaca;
+    background-color: #e4e4e4;
     z-index: 100;
     position: fixed;
     top: 0;
   }
 
-.header-button {
+.header-button, .header-now-button {
     background-color: #04AA6D; /* Green */
     border: none;
     color: white;
@@ -66,10 +66,12 @@ a {
     float: right;
     border-radius: 20px;
     margin: 5px;
-
+  }
+  .header-now-button{
+    border-bottom: #00ffc8 10px solid;
   }
 
-.header-button:hover {
+.header-button:hover, .header-now-button:hover {
     background-color: #357357; /* Green */
     border: none;
     color: white;
@@ -80,6 +82,13 @@ a {
     font-size: 30px;
     transition-duration: 0.4s;
     float: right;
+
+    border-bottom: #888888 10px solid;
+  }
+
+  .header-now-button:hover{
+    border-bottom: #00ffc8 10px solid;
+
   }
 
 .patient-portal{
@@ -239,12 +248,12 @@ video{
   position: absolute;
   right: 0;
   top: 0;
-  
+
 }
 
 .topnav {
   overflow: hidden;
-  background-color: #888888;
+  background-color: #e4e4e4;
   position: relative;
 }
 
@@ -259,9 +268,9 @@ video{
   font-size: 25px;
   display: block;
 
-  background-color: #888888;
+  background-color: #e4e4e4;
   border: none;
-  color: rgb(255, 255, 255);
+  color: rgb(37, 48, 38);
   padding: 15px 32px;
   text-align: left;
   margin-right: 20px;
@@ -294,7 +303,8 @@ video{
   font-size: 40px;
   float: right;
   margin-right: 5%;
-  
+  border-radius: 20px;
+
 }
 
 .link-video{
@@ -318,7 +328,7 @@ video{
 }
 
 /**/
-.dropbtn {
+.dropbtn, .dropbtn-now {
   background-color: #04AA6D;
   color: white;
   padding: 17px;
@@ -327,6 +337,11 @@ video{
   cursor: pointer;
   border-radius: 20px;
   margin: 5px;
+
+}
+
+.dropbtn-now{
+  border-bottom: #00ffc8 10px solid;
 
 }
 
@@ -367,6 +382,8 @@ video{
 
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
+  border-bottom: #888888 10px solid;
+transition-duration: 0.4;
 }
 
 .home-button{
@@ -489,7 +506,7 @@ video{
 
   .blog-grid-container{
     width: 85vw;
-    
+
   }
 
   .itemimage{
@@ -499,7 +516,7 @@ video{
   .grid-item{
     width: 75vw;
   }
-  
+
   .centered-grid-item{
     width: 75vw;
   }
