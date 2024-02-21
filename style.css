@@ -300,11 +300,10 @@ video{
   text-align: center;
   text-decoration: none;
   display: none;
-  font-size: 40px;
+  font-size: 6vw;
   float: right;
   margin-right: 5%;
-  border-radius: 20px;
-
+  border-radius: 30px;
 }
 
 .link-video{
@@ -552,5 +551,16 @@ transition-duration: 0.4;
 
   .google-map{
     width:80vw;
+  }
+
+  .footer-grid-container {
+    display: grid;
+    grid-template-areas:
+    'contact'
+    'hours'
+    'other'
+    'blogs'
+    ;
+
   }
 }
