@@ -1,0 +1,49 @@
+/*TODO: create blog grid*/
+.itemI { grid-area: image; }
+.itemT { grid-area: description; }
+
+.blog-grid-container {
+  display: grid;
+  grid-template-areas:
+  'description image'
+  ;
+  margin-right: 3%;
+  margin-left: 3%;
+  width: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.blog-grid-item-1 , .blog-grid-item-2 {
+  padding: 20px;
+  border-top: 5px solid #3e8e41;
+  border-bottom: 5px solid #3e8e41;
+  font-size: 20px;
+}
+
+.blog-image{
+  width: 500px;
+}
+
+@media only screen and (max-width:1100px) {
+  /* For mobile phones: */
+  .blog-grid-container{
+    grid-template-areas:
+  'image'
+  'description'
+  ;
+  width: 85vw;
+  }
+
+  .blog-grid-item-1 {
+    border-top: none;
+    padding-top: 0;
+  }
+  .blog-grid-item-2 {
+    border-bottom: none;
+  }
+
+  .blog-image{
+    width: 100%;
+  }
+
+}
