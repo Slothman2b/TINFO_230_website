@@ -134,7 +134,7 @@ a {
     z-index: 99;
     position: static;
     bottom: 0;
-    padding-bottom: 5%;
+    padding-bottom: 0%;
 
     color: #cacaca;
 }
@@ -467,26 +467,7 @@ transition-duration: 0.4;
   width: 40vw;
 }
 
-.itemtext { grid-area: texts; }
-.itemimage { grid-area: image; }
 
-.blog-grid-container {
-  display: grid;
-  grid-template-areas:
-  'texts image'
-  ;
-  margin-right: 3%;
-  margin-left: 3%;
-  width: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.blog-grid-item {
-  padding: 20px;
-  border-top: 5px solid #3e8e41;
-  border-bottom: 5px solid #3e8e41;
-  font-size: 20px;
-}
 
 @media only screen and (max-width:1100px) {
   /* For mobile phones: */
@@ -501,11 +482,6 @@ transition-duration: 0.4;
   'description'
   ;
   width: 85vw;
-
-  }
-
-  .blog-grid-container{
-    width: 85vw;
 
   }
 
