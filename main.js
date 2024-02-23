@@ -6,4 +6,4 @@ function openMenu() {
   } else {
     x.style.display = "block";
   }
-} 
+}
