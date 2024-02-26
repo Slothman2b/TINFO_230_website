@@ -5,7 +5,11 @@ html {
   min-height: 100vh;
 
 }
-
+em{
+  text-decoration: none;
+  font-weight: bold;
+  color:#175E17;
+}
 body {
     background-color: rgb(252, 252, 252);
     margin: 0%;
@@ -42,6 +46,11 @@ a {
 .link:hover{
   color: #86ce86;
 }
+
+small{
+  font-size: 15px;
+}
+
 .header {
 
     height: auto;

@@ -1,0 +1,20 @@
+li{
+  background-color: #E4E4E4;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 5px;
+}
+
+@media only screen and (max-width:1100px) {
+  li{
+  display: none;
+  background-color: none;
+  }
+
+  .mobile-show{
+    display:block;
+    background-color: none;
+
+  }
+
+}
