@@ -1,165 +1,23 @@
 
 
-html {
-  overflow-x: hidden;
-  min-height: 100vh;
 
-}
-em{
-  text-decoration: none;
-  font-weight: bold;
-  color:#175E17;
-}
-body {
-    background-color: rgb(252, 252, 252);
-    margin: 0%;
-    min-width: 1000px;
-    max-width: 100%;
-    overflow-x: hidden;
-}
 
-div{
-  overflow-x: hidden;
-}
-
-.subsection{
-  font-size: 1px;
-}
-
-.page-title{
-  text-align: center;
-  font-weight: bold;
-  width: 100vw;
-  font-size: 45px;
-}
-
-a {
-  color: #2aad2a;
-  text-decoration: none;
-}
-
-.link{
-  color: #2aad2a;
-  transition-duration: 0.4s;
-}
-
-.link:hover{
-  color: #86ce86;
-}
-
-small{
-  font-size: 15px;
-}
-
-.header {
-
-    height: auto;
-    width: 100%;
-    padding: 20px;
-    background-color: #e4e4e4;
-    z-index: 100;
-    position: fixed;
-    top: 0;
-  }
-
-.header-button, .header-now-button {
-    background-color: #04AA6D; /* Green */
+.read-more-button-practice {
+    background-color: #157a55; /* Green */
     border: none;
     color: white;
-    padding: 17px 20px;
+    padding: 10px 30px;
     text-align: center;
     text-decoration: none;
     display: block;
-    font-size: 30px;
+    font-size: 20px;
     transition-duration: 0.4s;
-    float: right;
-    border-radius: 20px;
-    margin: 5px;
-  }
-  .header-now-button{
-    border-bottom: #00ffc8 10px solid;
-  }
-
-.header-button:hover, .header-now-button:hover {
-    background-color: #357357; /* Green */
-    border: none;
-    color: white;
-    padding: 17px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    font-size: 30px;
-    transition-duration: 0.4s;
-    float: right;
-
-    border-bottom: #888888 10px solid;
-  }
-
-  .header-now-button:hover{
-    border-bottom: #00ffc8 10px solid;
-
-  }
-
-.patient-portal{
-    background-color: #a4ac35; /* Green */
-    border: none;
-    color: white;
-    padding: 17px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    font-size: 30px;
-    transition-duration: 0.4s;
-    float: right;
-    margin: 5px;
-
-    margin-right: 3%;
-    border-radius: 20px;
-
+    float: left;
+    margin: 130px; /* Adjust margin as needed */
+    margin-right: 20%; /* Adjust margin-right as needed */
+    margin-top: 0; /* Adjust margin-top as needed */
 }
 
-.patient-portal:hover{
-    background-color: #373a09; /* Green */
-    border: none;
-    color: white;
-    padding: 15x 20px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    font-size: 30px;
-    transition-duration: 0.4s;
-    float: right;
-    margin: 5px;
-
-    margin-right: 3%;
-
-}
-
-.footer{
-    height: auto;
-    width: auto;
-    padding: 20px;
-    background-color: #284644;
-    z-index: 99;
-    position: static;
-    bottom: 0;
-    padding-bottom: 0%;
-
-    color: #cacaca;
-}
-
-.read-more-button , .diabutton{
-  background-color: #157a55; /* Green */
-  border: none;
-  color: white;
-  padding: 10px 15px;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  font-size: 20px;
-  transition-duration: 0.4s;
-  float: left;
-}
 
 .read-more-button:hover, .diabutton:hover{
   background-color: #042217; /* Green */
@@ -174,9 +32,6 @@ small{
   float: left;
 }
 
-u {
-  font-weight: bold;
-}
 
 .diabutton{
 width: 100%;}
@@ -193,27 +48,8 @@ dialog::backdrop {
   transform: translate(-50%, -50%);
 }
 
-.practice-image{
-  width: 40vw;
-}
 
-.blog-image{
-  width: 20vw;
-}
 
-video{
-  display: inline-block;
-    width: 400px;
-    margin: 4px;
-    text-align: center;
-    border: 1px solid #cccccc;
-}
-
-.container{
-
-  margin: 5px;
-  font-size: 13px;
-}
 
 .item1 { grid-area: video; }
 .item2 { grid-area: description; }
@@ -262,7 +98,7 @@ video{
 
 .topnav {
   overflow: hidden;
-  background-color: #e4e4e4;
+  background-color: #888888;
   position: relative;
 }
 
@@ -277,9 +113,9 @@ video{
   font-size: 25px;
   display: block;
 
-  background-color: #e4e4e4;
+  background-color: #888888;
   border: none;
-  color: rgb(37, 48, 38);
+  color: rgb(255, 255, 255);
   padding: 15px 32px;
   text-align: left;
   margin-right: 20px;
@@ -309,10 +145,10 @@ video{
   text-align: center;
   text-decoration: none;
   display: none;
-  font-size: 6vw;
+  font-size: 40px;
   float: right;
   margin-right: 5%;
-  border-radius: 30px;
+
 }
 
 .link-video{
@@ -336,7 +172,7 @@ video{
 }
 
 /**/
-.dropbtn, .dropbtn-now {
+.dropbtn {
   background-color: #04AA6D;
   color: white;
   padding: 17px;
@@ -345,11 +181,6 @@ video{
   cursor: pointer;
   border-radius: 20px;
   margin: 5px;
-
-}
-
-.dropbtn-now{
-  border-bottom: #00ffc8 10px solid;
 
 }
 
@@ -364,10 +195,34 @@ video{
   float: right;
 }
 
+.dropdown-content-conditions {
+    display: none;
+    position: fixed;
+    text-align: center;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.white-background {
+    display: block;
+    margin: 0 auto; /* Center horizontally */
+    width:55%;
+
+    text-align: center;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 20px;
+}
+
 .dropdown-content {
   display: none;
   position: fixed;
-  text-align: left;
+  text-align: center;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -390,9 +245,58 @@ video{
 
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
-  border-bottom: #888888 10px solid;
-transition-duration: 0.4;
 }
+
+.dropdown-conditions:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-conditions:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.text {
+    text-align: center;
+
+    font-weight:bold;
+}
+.moreText {
+    display: none;
+    transform: translateX(325%);
+    font-size: 20px;
+}
+
+.read-more-btn {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 17px 20px;
+    text-decoration: none;
+    font-size: 30px;
+    transition-duration: 0.4s;
+    border-radius: 20px;
+    display:block;
+    margin: 0 auto; /* Center horizontally */
+    width:60%;
+
+}
+
+.vl {
+
+    border-left: 6px solid #04AA6D;
+    height: 753px;
+    position: absolute;
+    left: 30%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.text.show-more .moreText {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 
 .home-button{
   background-color: #04AA6D;
@@ -475,24 +379,30 @@ transition-duration: 0.4;
   width: 40vw;
 }
 
-.social-icon{
-  width: 50px;
-  margin: 10px;
+.itemtext { grid-area: texts; }
+.itemimage { grid-area: image; }
+
+.blog-grid-container {
+  display: grid;
+  grid-template-areas:
+  'texts image'
+  ;
+  margin-right: 3%;
+  margin-left: 3%;
+  width: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-
-.condition-grid-top{
-  border-left: 10px solid #3e8e41;
+.blog-grid-item {
+  padding: 20px;
+  border-top: 5px solid #3e8e41;
+  border-bottom: 5px solid #3e8e41;
+  font-size: 20px;
 }
-
-.condition-grid-bottom{
-  border-right: 10px solid #3e8e41;
-}
-
-
 
 @media only screen and (max-width:1100px) {
   /* For mobile phones: */
-  .header-button, .patient-portal, .header-button:hover, .patient-portal:hover {
+    .header-button, .patient-portal, .header-button:hover, .patient-portal:hover {
     background-color: aqua;
     display: none;
   }
@@ -503,6 +413,11 @@ transition-duration: 0.4;
   'description'
   ;
   width: 85vw;
+
+  }
+
+  .blog-grid-container{
+    width: 85vw;
 
   }
 
@@ -574,21 +489,185 @@ transition-duration: 0.4;
   .google-map{
     width:80vw;
   }
+}
 
-  .footer-grid-container {
-    display: grid;
-    grid-template-areas:
-    'contact'
-    'hours'
-    'other'
-    'blogs'
-    ;
+.patient-forums em{
+    color:blue;
+}
 
-  }
+.patient-forums strong {
+    color: blue;
+}
 
-  .condition-grid-top , .condition-grid-bottom{
-    border-left: 5px solid #3e8e41;
-    border-right: 5px solid #3e8e41;
+.patient-forums small {
+    position:relative;
+    right: 122px;
 
-  }
+}
+
+.service-layout {
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 70vw;
+    font-size: 25px;
+}
+
+/*Andreas*/
+label {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.required {
+    position: absolute;
+    color: red; /*Set the color of the asterisk */
+    margin-left: 5px; /* Adjust the spacing between the label text and the asterisk */
+    font-size: 18px;
+    line-height: 1;
+}
+
+input[type="text"] {
+    height: 40px; /* Adjust the height as needed */
+
+    width: 40%;
+    font-size: 20pt; /* Adjust the font size as needed */
+}
+
+
+.hours {
+    position: absolute;
+    right: 40%;
+    inline-size: 217px;
+}
+
+
+.contact {
+    position: absolute;
+    right: 15%;
+    inline-size: 220px;
+}
+
+    .hours p, .contact p {
+        font-size: 20px;
+        overflow-wrap: break-word;
+    }
+
+    .hours h1, .contact h1 {
+        color: #FAC898;
+    }
+
+.email h2 {
+    color: #FAC898;
+}
+
+
+label {
+    color: black;
+    height: 200px;
+    font-size: 20pt;
+}
+
+.contact em {
+    color: orange;
+}
+
+send {
+    text-decoration: none;
+    color: green;
+}
+
+.insurance {
+    padding-left: 9.5%;
+    width: 90%;
+    overflow: visible;
+    overflow-wrap: break-word;
+    /*padding: 9%;*/
+}
+
+    .insurance p, .insurance b {
+        font-size: 22px;
+        inline-size: 76%;
+        line-height: 1.5;
+        word-wrap: break-word !important;
+    }
+
+    .insurance h1 {
+        inline-size: 100%;
+    }
+
+    .insurance pre {
+        font-size: 22px;
+
+    }
+
+    .insurance a {
+        color: black;
+    }
+
+    .insurance h3 {
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+.our-service-layout {
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 70vw;
+    font-size: 25px;
+}
+
+    .our-service-layout u {
+        color: blue;
+        font-style: italic;
+        text-decoration: none;
+    }
+
+    .our-service-layout ul {
+        -webkit-column-count: 2;
+        -webkit-column-gap: 50px;
+    }
+
+    .our-service-layout b {
+        color: blue;
+    }
+
+
+    .our-service-layout small {
+        font-size: 10px;
+        padding-left: 12.5%;
+        margin-top: 0;
+    }
+
+    .our-service-layout p {
+        font-size: 22px;
+        inline-size: 76%;
+        line-height: 1.5;
+        word-wrap: break-word !important;
+    }
+
+.footer a {
+    color: whitesmoke;
+}
+
+.footer p {
+    color: whitesmoke;
+}
+
+    .our-service-layout-services {
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 70vw;
+    font-size: 25px;
+}
+
+
+our-service-layout-services p {
+    font-size: 22px;
+    inline-size: 76%;
+    line-height: 1.5;
+    word-wrap: break-word !important;
+}
+
+b{
+    color: green;
 }
