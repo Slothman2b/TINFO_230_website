@@ -59,3 +59,16 @@
   border-radius: 20px;
 
 }
+
+.modal-read-more-button{
+  background-color: #157a55; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  float: left;
+}
