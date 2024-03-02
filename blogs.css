@@ -47,3 +47,15 @@
   }
 
 }
+
+.date{
+  opacity: 50%;
+}
+
+.close-button{
+  float: right;
+  font-weight: bold;
+  font-size: 2vw;
+  border-radius: 20px;
+
+}

@@ -479,6 +479,10 @@ transition-duration: 0.4;
   border-right: 10px solid #3e8e41;
 }
 
+.blog-dialog{
+  width: 90%;
+  height: 90%;
+}
 
 
 @media only screen and (max-width:1100px) {
