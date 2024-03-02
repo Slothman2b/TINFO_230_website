@@ -89,19 +89,7 @@ dialog::backdrop {
 
 
 
-.menu-button{
-  background-color: #888888;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: none;
-  font-size: 40px;
-  float: right;
-  margin-right: 5%;
 
-}
 
 .link-video{
   width: 100%;
@@ -282,21 +270,7 @@ dialog::backdrop {
 .itemB { grid-area: other; }
 .itemC { grid-area: hours; }
 .itemD { grid-area: contact; }
-.footer-grid-container {
-  display: grid;
-  grid-template-areas:
-  'blogs other hours contact'
-  ;
-  margin-right: 3%;
-  margin-left: 3%;
-  width: 90vw;
-  justify-content: center;
-}
-.footer-grid-item {
-  padding: 20px;
-  color: white;
-  font-size:large;
-}
+
 
 
 
@@ -597,13 +571,6 @@ send {
         word-wrap: break-word !important;
     }
 
-.footer a {
-    color: whitesmoke;
-}
-
-.footer p {
-    color: whitesmoke;
-}
 
     .our-service-layout-services {
     padding-left: 15%;
