@@ -86,55 +86,7 @@ dialog::backdrop {
 }
 
 
-/* mobile menu */
-.topnav a.icon {
-  background: #888888;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
 
-}
-
-.topnav {
-  overflow: hidden;
-  background-color: #888888;
-  position: relative;
-}
-
-.topnav #myLinks {
-  display: none;
-}
-
-.topnav a {
-  color: #162ba1;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  display: block;
-
-  background-color: #888888;
-  border: none;
-  color: rgb(255, 255, 255);
-  padding: 15px 32px;
-  text-align: left;
-  margin-right: 20px;
-  transition-duration: 0.4s;
-
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-  transition-duration: 0.1s;
-}
-
-.active {
-  background-color: #04AA6D;
-  color: white;
-}
-
-/* mobile menu end */
 
 
 .menu-button{
