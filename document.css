@@ -15,19 +15,17 @@ em{
 
 .Three-Fourths{
 
-  width: 60%;
-  padding-left: 35%;
-  position:static;
-  top: 20%;
+  width: auto;
+  position:auto;
+  float: right;
 
 }
 
 .One-Fourths{
   width: 25%;
-  padding-left: 3%;
-  position: absolute;
-  top: 20%;
+  position: auto;
   overflow-wrap: break-word;
+  float: left;
 }
 
 .Table{
