@@ -24,6 +24,13 @@
   width: 500px;
 }
 
+.modal-image{
+  justify-content: center;
+  margin-left: 10%;
+  width: 80%;
+  border: 5px solid #157a55;
+}
+
 @media only screen and (max-width:1100px) {
   /* For mobile phones: */
   .blog-grid-container{
@@ -68,7 +75,7 @@
   text-align: center;
   text-decoration: none;
   display: block;
-  font-size: 20px;
+  font-size: 50px;
   transition-duration: 0.4s;
-  float: left;
+  float: right;
 }

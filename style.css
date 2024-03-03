@@ -204,6 +204,7 @@ video{
 
   margin: 5px;
   font-size: 13px;
+  overflow-y: none;
 }
 
 .item1 { grid-area: video; }

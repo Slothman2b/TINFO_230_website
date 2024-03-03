@@ -1,6 +1,10 @@
 
 
-
+.container{
+  overflow-x: hidden;
+  margin: 5px;
+  font-size: 13px;
+}
 
 .read-more-button-practice {
     background-color: #157a55; /* Green */
@@ -199,15 +203,21 @@ dialog::backdrop {
     text-align: center;
 
     font-weight:bold;
-}
+
+    margin-left: 15vw; /* Center horizontally */
+    margin-right: 15vw; /* Center horizontally */
+
+    width:70vw;
+
+  }
 .moreText {
     display: none;
     transform: translateX(325%);
-    font-size: 20px;
+    font-size: 35px;
 }
 
 .read-more-btn {
-    background-color: #04AA6D; /* Green */
+    background-color: #00442b; /* Green */
     border: none;
     color: white;
     padding: 17px 20px;
@@ -216,8 +226,10 @@ dialog::backdrop {
     transition-duration: 0.4s;
     border-radius: 20px;
     display:block;
-    margin: 0 auto; /* Center horizontally */
-    width:60%;
+    margin-left: 15vw; /* Center horizontally */
+    margin-right: 15vw; /* Center horizontally */
+
+    width:70vw;
 
 }
 
