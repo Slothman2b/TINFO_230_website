@@ -438,6 +438,7 @@ dialog::backdrop {
 
   .center-button{
     width: 100%;
+    margin: 0;
   }
 }
 
