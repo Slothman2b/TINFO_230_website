@@ -435,6 +435,10 @@ dialog::backdrop {
   .google-map{
     width:80vw;
   }
+
+  .center-button{
+    width: 100%;
+  }
 }
 
 .patient-forums em{
